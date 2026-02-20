@@ -6,7 +6,8 @@
 CREATE TABLE users (
     id INT PRIMARY KEY IDENTITY(1,1),
     erp_id VARCHAR(50) UNIQUE,
-    full_name VARCHAR(100) NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     password_hash VARCHAR(255) NOT NULL,
     role VARCHAR(50) NOT NULL CHECK (role IN ('owner', 'renter', 'admin')),
@@ -26,4 +27,5 @@ CREATE TABLE refresh_tokens (
     is_revoked BIT DEFAULT 0,
     created_at DATETIME DEFAULT GETDATE(),
     FOREIGN KEY (user_id) REFERENCES users(id)
+        ON DELETE CASCADE
 );
