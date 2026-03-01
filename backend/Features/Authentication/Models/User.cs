@@ -31,7 +31,7 @@ public string PasswordHash { get; set; } = string.Empty;
 
  [Required]
  [Column("role")]
- public string Role { get; set; } = "renter"; // default
+ public string Role { get; set; } = "renter"; 
 
    [Column("phone")]
  public string? Phone { get; set; }
