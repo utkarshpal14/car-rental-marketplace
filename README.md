@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# 🚗 Car Rental Marketplace
+
+## 📌 Project Objective
+A full-stack web application that connects vehicle owners with renters through a secure, scalable, and structured platform.
+
+The system allows:
+- User authentication (Owner / Renter / Admin)
+- Vehicle listing & management
+- Real-time booking with availability validation
+- Secure payment processing
+- Review & rating system
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Axios
+- React Router
+
+### Backend
+- ASP.NET Core Web API
+- Entity Framework Core
+- JWT Authentication
+
+### Database
+- SQL Server
+
+---
+
+## 🏗 Development Strategy
+
+- Feature-based development workflow
+- Rotational role assignment system
+- Protected branches (main & develop)
+- Pull-request based merging
+
+---
+
+## 📂 Project Structure
+
+>>>>>>> cd2a1f2321a15ea8054c490643b524b6d639fbc0
