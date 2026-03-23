@@ -9,6 +9,7 @@ The system allows:
 - Real-time booking with availability validation
 - Secure payment processing
 - Review & rating system
+- update schema
 
 ---
 
